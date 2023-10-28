@@ -1,0 +1,20 @@
+galaxy_info:
+  role_name: ensure_python_packages
+  author: Sebastian Pabich
+  description: Serves ansible.builtin.pip as a role
+  license: license (BSD, MIT)
+  min_ansible_version: 2.1
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - python
+    - linux
+dependencies: []
